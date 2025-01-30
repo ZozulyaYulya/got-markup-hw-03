@@ -189,12 +189,19 @@ a {
 .advant-item {
   width: calc((100% - 72px) / 4);
 }
+
+.staff {
+  padding: 32px 0;
+}
+
 .item-list {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
+  text-align: center;
   margin-bottom: 8px;
 }
 .text-item {
@@ -204,14 +211,29 @@ a {
   letter-spacing: 0.02em;
   color: #434455;
   background-color: #ffffff;
+  width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
+}
+.text-item staff {
+  text-align: center;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+  background-color: #ffffff;
+  width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .team-class {
+  padding: 120px 0;
   background-color: #f4f4fd;
   text-transform: capitalize;
   color: #2e2f42;
 }
 .team-title {
+  margin-bottom: 72px;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -220,7 +242,10 @@ a {
   color: #2e2f42;
   text-transform: capitalize;
 }
-
+.team-list {
+  display: flex;
+  gap: 24px;
+}
 .portfolio-title {
   font-weight: 700;
   font-size: 36px;
