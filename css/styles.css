@@ -178,11 +178,13 @@ a {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-
+.advantages {
+  padding: 120px 0;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
 .advant-list {
   display: flex;
   gap: 24px;
-  padding: 120px 0;
 }
 .advant-item {
   width: calc((100% - 72px) / 4);
