@@ -166,12 +166,21 @@ a {
 .page-footer {
   background-color: #2e2f42;
 }
+.advant-list {
+  display: flex;
+  gap: 24px;
+  padding: 120px 0;
+}
+.advant-item {
+  width: calc((100% - 72px) / 4);
+}
 .item-list {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 .text-item {
   font-weight: 400;
