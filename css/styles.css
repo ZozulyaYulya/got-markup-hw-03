@@ -315,9 +315,10 @@ a {
   margin-left: auto;
   margin-right: auto;
   text-align: left;
+  margin-bottom: 16px;
 }
 
-.page-footer .container {
+.container footer {
   padding-left: 156px;
   display: inline-block;
   flex-direction: column;
