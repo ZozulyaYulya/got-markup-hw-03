@@ -312,13 +312,25 @@ a {
 .page-footer {
   background-color: #2e2f42;
   padding: 100px 0;
-  display: flex;
   margin-bottom: 16px;
   margin-left: auto;
   margin-right: auto;
+  text-align: left;
 }
-.logo page-footer {
-  max-width: 264px;
-  padding-bottom: 100px;
+
+.page-footer .container {
+  padding-left: 156px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.footer-logo {
   display: inline-block;
+  margin-bottom: 16px;
+}
+
+.logo-text-footer {
+  max-width: 264px;
+  text-align: left;
 }
