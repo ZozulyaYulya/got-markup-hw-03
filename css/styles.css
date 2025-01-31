@@ -225,10 +225,11 @@ a {
 }
 
 .team-class {
-  padding: 120px 0;
   background-color: #f4f4fd;
   text-transform: capitalize;
   color: #2e2f42;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 .team-title {
   margin-bottom: 72px;
@@ -297,11 +298,12 @@ a {
   background-color: #ffffff;
 }
 .App portfolio {
-  padding: 32px 16px;
-  border: 1px solid #e7e9fc;
   border-top: none;
 }
-
+.staff {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+}
 .page-footer {
   background-color: #2e2f42;
   padding: 100px 0;
