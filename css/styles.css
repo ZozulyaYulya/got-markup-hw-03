@@ -327,7 +327,10 @@ a {
   align-items: flex-start;
   margin-bottom: 16px;
 }
-
+.footer-logo {
+  display: inline-block;
+  margin-bottom: 16px;
+}
 .logo-text-footer {
   padding-top: 16px;
   max-width: 264px;
