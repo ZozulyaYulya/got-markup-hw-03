@@ -25,6 +25,8 @@ ol {
 }
 img {
   display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 /* common */
@@ -225,13 +227,13 @@ a {
   background-color: #f4f4fd;
   text-transform: capitalize;
   color: #2e2f42;
-  margin-bottom: 8px;
 }
 .team-item {
   border-radius: 0px 0px 4px 4px;
 }
 .team-title {
   margin-bottom: 72px;
+  padding-top: 120px;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -298,8 +300,9 @@ a {
   background-color: #ffffff;
 }
 .portfolio-app {
-  border-top: none;
   border: 1px solid #e7e9fc;
+  padding: 32px 16px;
+  border-top: none;
 }
 .staff {
   border: 1px solid #e7e9fc;
@@ -308,8 +311,12 @@ a {
 .page-footer {
   background-color: #2e2f42;
   padding: 100px 0;
-  display: inline-block;
+  display: flex;
   margin-bottom: 16px;
   margin-left: auto;
   margin-right: auto;
+}
+.logo page-footer {
+  max-width: 264px;
+  padding-bottom: 100px;
 }
