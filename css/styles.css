@@ -249,8 +249,7 @@ a {
 .portfolio-section {
   padding-top: 120px;
   padding-bottom: 120px;
-  padding: 32px 16px;
-  border: 1px solid #e7e9fc;
+  background-color: #f9f9f9;
 }
 .portfolio-title {
   font-weight: 700;
@@ -298,8 +297,9 @@ a {
   color: #2e2f42;
   background-color: #ffffff;
 }
-.App portfolio {
+.portfolio-app {
   border-top: none;
+  border: 1px solid #e7e9fc;
 }
 .staff {
   border: 1px solid #e7e9fc;
