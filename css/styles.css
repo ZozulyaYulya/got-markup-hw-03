@@ -179,12 +179,13 @@ a {
   overflow: hidden;
 }
 .advantages {
-  padding: 120px 0;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
 }
 .advant-list {
   display: flex;
   gap: 24px;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 .advant-item {
   width: calc((100% - 72px) / 4);
@@ -318,7 +319,7 @@ a {
   margin-bottom: 16px;
 }
 
-.logo footer-logo {
+.logo .footer-logo {
   padding-left: 156px;
   display: inline-block;
   flex-direction: column;
