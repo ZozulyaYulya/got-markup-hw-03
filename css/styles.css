@@ -209,8 +209,6 @@ a {
   letter-spacing: 0.02em;
   color: #434455;
   background-color: #ffffff;
-  width: calc((100% - 72px) / 4);
-  border-radius: 0px 0px 4px 4px;
 }
 .text-item staff {
   text-align: center;
@@ -221,15 +219,16 @@ a {
   color: #434455;
   background-color: #ffffff;
   width: calc((100% - 72px) / 4);
-  border-radius: 0 0 4px 4px;
 }
 
 .team-class {
   background-color: #f4f4fd;
   text-transform: capitalize;
   color: #2e2f42;
-  padding-top: 120px;
-  padding-bottom: 120px;
+  margin-bottom: 8px;
+}
+.team-item {
+  border-radius: 0px 0px 4px 4px;
 }
 .team-title {
   margin-bottom: 72px;
@@ -244,6 +243,8 @@ a {
 .team-list {
   display: flex;
   gap: 24px;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 .portfolio-section {
   padding-top: 120px;
@@ -301,8 +302,8 @@ a {
   border-top: none;
 }
 .staff {
-  padding: 32px 16px;
   border: 1px solid #e7e9fc;
+  padding: 32px 0;
 }
 .page-footer {
   background-color: #2e2f42;
